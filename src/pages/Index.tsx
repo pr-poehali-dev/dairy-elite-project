@@ -141,7 +141,7 @@ export default function Index() {
           <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.25s" }}>
             <div className="h-px bg-gold-500 w-12" />
             <p className="font-montserrat text-sm text-[#faf7f0]/70 tracking-wider max-w-xs">
-              Премиум молочные продукты с экологически чистых лугов
+              Премиум молочные продукты с экологически чистых лугов Курганской области
             </p>
           </div>
           <button
