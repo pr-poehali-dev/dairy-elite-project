@@ -141,7 +141,7 @@ export default function Index() {
           <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.25s" }}>
             <div className="h-px bg-gold-500 w-12" />
             <p className="font-montserrat text-sm text-[#faf7f0]/70 tracking-wider max-w-xs">
-              Премиум молочные продукты с экологически чистых лугов Курганской области
+              Премиум молочные продукты с экологически чистых лугов Курганской области Целинного района
             </p>
           </div>
           <button
@@ -171,7 +171,7 @@ export default function Index() {
               </h2>
               <GoldDivider />
               <p className="font-montserrat text-sm text-[#faf7f0]/65 leading-relaxed mb-6">
-                Более 20 лет мы выращиваем животных на экологически чистых лугах Курганской области. Чистый воздух, родниковая вода и сочная трава зауральских степей — основа исключительного вкуса наших продуктов.
+                Более 20 лет мы выращиваем животных на экологически чистых лугах Курганской области Целинного района. Чистый воздух, родниковая вода и сочная трава зауральских степей — основа исключительного вкуса наших продуктов.
               </p>
               <p className="font-montserrat text-sm text-[#faf7f0]/65 leading-relaxed">
                 Каждый продукт проходит строгий контроль качества. Мы верим, что подлинное богатство — это здоровье, которое дарит нетронутая природа.
