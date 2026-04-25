@@ -90,7 +90,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 flex items-center justify-between px-8 py-5"
         style={{ background: "linear-gradient(to bottom, rgba(13,17,14,0.95) 0%, transparent 100%)" }}>
         <div className="font-cormorant text-xl text-gold-300 tracking-widest uppercase">
-          Зелёные Пастбища
+          Луга Целинного
         </div>
         <ul className="hidden md:flex gap-8">
           {navLinks.map(l => (
@@ -123,7 +123,7 @@ export default function Index() {
       {/* HERO */}
       <section id="home" className="relative min-h-screen flex items-end pb-24 overflow-hidden">
         <div className="absolute inset-0">
-          <img src={HERO_IMAGE} alt="Зелёные пастбища" className="w-full h-full object-cover object-center opacity-60" />
+          <img src={HERO_IMAGE} alt="Луга Целинного" className="w-full h-full object-cover object-center opacity-60" />
           <div className="absolute inset-0" style={{
             background: "linear-gradient(to top, #0d110e 0%, rgba(13,17,14,0.5) 50%, rgba(13,17,14,0.2) 100%)"
           }} />
@@ -135,8 +135,8 @@ export default function Index() {
           </p>
           <h1 className="font-cormorant text-6xl md:text-8xl lg:text-9xl font-light leading-[1.05] text-[#faf7f0] mb-6 opacity-0 animate-fade-up"
             style={{ animationDelay: "0.1s" }}>
-            Зелёные<br />
-            <em className="text-gold-300 not-italic">Пастбища</em>
+            Луга<br />
+            <em className="text-gold-300 not-italic">Целинного</em>
           </h1>
           <div className="flex items-center gap-4 mb-8 opacity-0 animate-fade-up" style={{ animationDelay: "0.25s" }}>
             <div className="h-px bg-gold-500 w-12" />
@@ -297,7 +297,7 @@ export default function Index() {
       {/* Footer */}
       <footer className="border-t border-gold-700/20 py-10 px-8">
         <div className="max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="font-cormorant text-lg text-gold-500 tracking-widest uppercase">Зелёные Пастбища</p>
+          <p className="font-cormorant text-lg text-gold-500 tracking-widest uppercase">Луга Целинного</p>
           <p className="font-montserrat text-[10px] tracking-wider text-[#faf7f0]/30 uppercase">
             © 2024 · Все права защищены
           </p>
