@@ -258,7 +258,7 @@ export default function Index() {
             {[
               { icon: "Phone", label: "Телефон", val: "+7 (800) 000-00-00" },
               { icon: "Mail", label: "Email", val: "info@zelenye.ru" },
-              { icon: "MapPin", label: "Адрес", val: "Краснодарский край, ст. Зеленогорская" },
+              { icon: "MapPin", label: "Адрес", val: "Курганская область, Целинный район" },
             ].map((c, i) => (
               <div key={i} className="border border-gold-700/25 p-8 hover:border-gold-600/50 transition-colors duration-300">
                 <Icon name={c.icon} size={20} className="text-gold-400 mx-auto mb-4" />
